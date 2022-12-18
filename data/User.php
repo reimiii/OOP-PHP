@@ -3,7 +3,7 @@
 class User
 {
     public string $name;
-    public string $address;
+    public ?string $address = null;
 
     // Default value
     public string $country = "Indonesia";

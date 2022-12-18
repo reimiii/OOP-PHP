@@ -4,7 +4,7 @@ require_once "data/User.php";
 
 $user = new User();
 $user->name = "Hilmi";
-$user->address = "Bogor";
+$user->address = null;
 
 var_dump($user);
 
