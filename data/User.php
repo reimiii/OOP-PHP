@@ -4,5 +4,7 @@ class User
 {
     public string $name;
     public string $address;
-    public string $country;
+
+    // Default value
+    public string $country = "Indonesia";
 }

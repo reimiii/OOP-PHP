@@ -5,7 +5,6 @@ require_once "data/User.php";
 $user = new User();
 $user->name = "Hilmi";
 $user->address = "Bogor";
-$user->country = "Indonesia";
 
 var_dump($user);
 
