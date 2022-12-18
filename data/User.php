@@ -2,6 +2,8 @@
 
 class User
 {
+    const AUTHOR = 'REIMII';
+
     public string $name;
     public ?string $address = null;
     // Default value
