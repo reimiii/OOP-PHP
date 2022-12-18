@@ -9,3 +9,6 @@ $mika->sayHello("Hilmi");
 $yuko = new User();
 $yuko->name = "Yuko";
 $yuko->sayHello(null);
+
+$mika->info();
+$yuko->info();

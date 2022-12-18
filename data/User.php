@@ -17,4 +17,9 @@ class User
             echo "Hi $name, my name is $this->name" . PHP_EOL;
         }
     }
+
+    function info(): void
+    {
+        echo 'Author : ' . self::AUTHOR . PHP_EOL;
+    }
 }
