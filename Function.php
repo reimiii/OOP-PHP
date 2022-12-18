@@ -2,6 +2,10 @@
 
 require_once "data/User.php";
 
-$user = new User();
+$mika = new User();
+$mika->name = "Mika";
+$mika->sayHello("Hilmi");
 
-$user->sayHello("Hilmi");
+$yuko = new User();
+$yuko->name = "Yuko";
+$yuko->sayHello(null);
