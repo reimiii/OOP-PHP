@@ -1,5 +1,7 @@
 <?php
 
+namespace Data;
+
 class Manager
 {
     public string $name;

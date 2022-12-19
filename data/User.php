@@ -1,5 +1,7 @@
 <?php
 
+namespace Data;
+
 class User
 {
     public const AUTHOR = 'REIMII';

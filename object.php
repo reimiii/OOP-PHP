@@ -1,6 +1,7 @@
 <?php
 
-require_once 'data/User.php';
+
+use Data\User;
 
 $user = new User('Hilmi', 'Jakarta');
 $user->name = 'Hilmi';
